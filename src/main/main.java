@@ -10,7 +10,9 @@ public class main {
             len = str.length();
             System.out.println(len);
         } catch (NullPointerException e) {
-          
+            System.out.println("NullPointerExceptionが発生しました。");
+            e.printStackTrace();
+            return;
         }
     }
 }
