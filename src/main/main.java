@@ -6,7 +6,8 @@ public class main {
         try {
             String str;
             int len;
-            str = null;
+            str = "3. 14";
+            double value = Double.parseDouble(str);
             len = str.length();
             System.out.println(len);
         } catch (NullPointerException e) {
